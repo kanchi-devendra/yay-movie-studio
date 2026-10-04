@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAY Movie Studio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<style>
+    h2{
+        color: rgb(94, 122, 28);
+    }
+    button{
+        color: aqua;
+        background-color: rgb(231, 223, 223);
+    }
+</style>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTYTPESK8O_m-m4FaUWCrjs_TwG2zD10bO2i2ej0bcGaJEU9xEC98M6K4&s=10" alt="YAY Movie Studio">
+        </div>
+
+        <h1>YAY MOVIE STUDIO</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="about.html">About Us</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+         <div class="login-container">
+        <h2>Login</h2>
+
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Enter your username"
+                    required
+                >
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter your password"
+                    required
+                >
+            </div>
+
+            <button type="submit" class="login-btn"><a href="index.html">login</a></button>
+
+            <div class="links">
+                <p><a href="register.html">Forgot Password?</a></p>
+                <p>Don't have an account? <a href="index.html">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+    </body>
